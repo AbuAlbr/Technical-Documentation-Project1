@@ -3,7 +3,7 @@ The Bank System Simulation is a program that emulates the functionalities of an 
 
 ---
 
-## Key Features
+## Key Features :sparkles:
 
 - **Create an Account**: Register a new user account with your name.
 
@@ -29,7 +29,7 @@ You could either use it on the GitHub website on any operating system that has a
 
 3. Click the ***+*** icon to start a new Codespace.
 
-4. Wait for files to load, then click the explorer ~~files~~ icon <kbd>📁</kbd> on the top-left.
+4. Wait for files to load, then click the explorer ~~files~~ icon <kbd>:file_folder:</kbd> on the top-left.
 
 5. Select the ***BankSystem.java*** file.
 
@@ -41,7 +41,7 @@ You could either use it on the GitHub website on any operating system that has a
 
 <sub>or</sub> 
 
-### Download the program as a zip file and run it on your IDE compiler
+### Download the program as a zip file and run it on your IDE compiler 💾
 1. Open the link of the [Bank System Simulation Bary Bank](https://github.com/AbuAlbr/Bank-System-Simulation-Bary-Bank) on GitHub.
 2. Click the <kbd>**<> code**</kbd> button, and Select the ***Local*** tab.
 3. Click on ***Download ZIP***.
@@ -52,7 +52,7 @@ You could either use it on the GitHub website on any operating system that has a
 ---
 
 ## User Guide
-### Creating an Account
+### Creating an Account 
 in the first page after run the program.
 1. Enter `1` .
 - [ ] Enter your name
@@ -65,7 +65,7 @@ To Log out | To Perform more operations
 ---------- | --------- 
 Enter `2`  | Enter `1`
 
-### Deposit
+### Deposit 💸
 in the home page after log-in or create an account.
 1. Enter `2` .
 
@@ -81,7 +81,7 @@ To cancel  | To confirm
 ---------- | --------- 
 Enter `2`  | Enter `1`
 
-### Transfer
+### Transfer 
 in the home page after log-in or create an account.
 1. Enter `4` .
 
@@ -92,75 +92,86 @@ in the home page after log-in or create an account.
 
 If you do not have the amount of money you entered, the program will suggest that you transfer all that you have or cancel the transaction.
 ```
-if (stay){                   // It only becomes appealing when you choose the account you want to transfer to
-                System.out.println("\n      | You chose " + selectedAccount + " |");
-                System.out.println("\nIf you want to cancel enter any letter");      // This code and below is almost identical to the withdrawal code   
-                System.out.println("How much do you want to transfer to " + selectedAccount + " ?");
+if (account.getBalance() >= amount){
+    System.out.println("Are you sure you want to transfer " + amount + " " + currency + " ?");
+    System.out.println("      1. Yes    2. No, cancel");
+    System.out.print("Enter the number of your choice: ");
+    stay = true;
 
-                double amount = scnr.nextDouble();
-                
-                if (amount > 0){
-                    if (account.getBalance() >= amount){
-                        System.out.println("Are you sure you want to transfer " + amount + " " + currency + " ?");
-                        System.out.println("      1. Yes    2. No, cancel");
-                        System.out.print("Enter the number of your choice: ");
-                        stay = true;
-    
-                        while (stay){                                                                              
-                            char option = scnr.next().charAt(0);
-                            switch (option){
-                                case '1':
-                                    account.transfer(selectedAccount, amount);
-                                    stay = false;   
-                                    System.out.println("\n   | " + amount + " " + currency + " have been transferred to " + selectedAccount + " successfully |"); 
-                                    System.out.println("     | Your balance has become " + account.getBalance() + " " + currency + " |");                        
-                                    more();
-                                    break;
-                                case '2':
-                                    stay = false;        
-                                    System.out.println("Canceled successfully");
-                                    break;
-                                default:
-                                    System.out.println("      | Invalid option! |");
-                                    break;
-                            }   
-                        }
-                    }
-                    else{
-                        System.out.println(" | The amount you want to transfer is more than your balance | ");
-                        System.out.println("      | You have " + account.getBalance() + " " + currency + " in your balance |");
-                        System.out.println("Would you like to transfer the entire balance to " + selectedAccount + " ?");
-                        System.out.println("    1. Yes    2. No, cancel");
-                        System.out.print("Enter the number of your choice: ");
-                        stay = true;
-    
-                        while (stay){                                                                              
-                            char option = scnr.next().charAt(0);
-                            switch (option){
-                                case '1':
-                                    double amnt = account.getBalance();
-                                    account.transfer(selectedAccount, amnt);
-                                    stay = false;   
-                                    System.out.println("\n   | " + amnt + " " + currency + " have been transferred to " + selectedAccount + " successfully |"); 
-                                    System.out.println("     | Your balance has become " + account.getBalance() + " " + currency + " |");                        
-                                    more();
-                                    break;
-                                case '2':
-                                    stay = false;        
-                                    System.out.println("Canceled successfully");
-                                    break;
-                                default:
-                                    System.out.println("      | Invalid option! |");
-                                    break;
-                            }   
-                        }
-                    }
-                }
-                else{
-                    System.out.println("\n      | Zero or less amount cannot be transferred :) |");
-                }
-            }
+    while (stay){                                                                              
+        char option = scnr.next().charAt(0);
+        switch (option){
+            case '1':
+                account.transfer(selectedAccount, amount);
+                stay = false;   
+                System.out.println("\n   | " + amount + " " + currency + " have been transferred to " + selectedAccount + " successfully |"); 
+                System.out.println("     | Your balance has become " + account.getBalance() + " " + currency + " |");                        
+                more();
+                break;
+            case '2':
+                stay = false;        
+                System.out.println("Canceled successfully");
+                break;
+            default:
+                System.out.println("      | Invalid option! |");
+                break;
+        }   
+    }
+}
+else{
+    System.out.println(" | The amount you want to transfer is more than your balance | ");
+    System.out.println("      | You have " + account.getBalance() + " " + currency + " in your balance |");
+    System.out.println("Would you like to transfer the entire balance to " + selectedAccount + " ?");
+    System.out.println("    1. Yes    2. No, cancel");
+    System.out.print("Enter the number of your choice: ");
 ```
+
+---
+
+## Troubleshooting 🛠
+- **invalid password when making an account** either:
+  - The password length is less or more than four digits.
+  -  contains letters. 
+- **Unable to deposit**
+  - The deposited amount may be less than 50.
+  - contains letters.
+
+---
+
+## Advanced Usage
+- **Scripting:** 💻
+
+**Create accounts with codes:** 
+```
+static Account b1 = new Account("Abdulbari Molla", 6842);   
+static Account b2 = new Account("Safwan Khayyat", 1425);
+static Account b3 = new Account("Ahmed AL-Ghamdi", 7485);
+static Account b4 = new Account("Turki Sharahili", 9685);
+
+beneficiaries.add(b1);                                             
+customers.put(10001, b1);
+
+beneficiaries.add(b2);                                             
+customers.put(10002, b2);
+
+beneficiaries.add(b3);                                             
+customers.put(10003, b3);
+
+beneficiaries.add(b4);                                             
+customers.put(10004, b4);
+```
+
+- **Integrations:** 
+
+| Application Name | Description                                           | Website                                   |
+|------------------|-------------------------------------------------------|-------------------------------------------|
+| **QuickBooks**    | Accounting software to manage finances and payroll.  | [QuickBooks](https://quickbooks.intuit.com) |
+| **PayPal**        | Online payment system for making secure transactions.| [PayPal](https://www.paypal.com)           |
+| **Stripe**        | Payment processing platform for online businesses.   | [Stripe](https://stripe.com)               |
+| **Zapier**        | Automation tool to connect different web applications.| [Zapier](https://zapier.com)               |
+| **Xero**          | Cloud-based accounting software for small businesses.| [Xero](https://www.xero.com)               |
+
+
 
 ---
 
