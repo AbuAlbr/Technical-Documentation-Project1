@@ -91,7 +91,8 @@ in the home page after log-in or create an account.
 3. Enter the amount. 
 
 If you do not have the amount of money you entered, the program will suggest that you transfer all that you have or cancel the transaction.
-```if (stay){                   // It only becomes appealing when you choose the account you want to transfer to
+```
+if (stay){                   // It only becomes appealing when you choose the account you want to transfer to
                 System.out.println("\n      | You chose " + selectedAccount + " |");
                 System.out.println("\nIf you want to cancel enter any letter");      // This code and below is almost identical to the withdrawal code   
                 System.out.println("How much do you want to transfer to " + selectedAccount + " ?");
@@ -158,7 +159,8 @@ If you do not have the amount of money you entered, the program will suggest tha
                 else{
                     System.out.println("\n      | Zero or less amount cannot be transferred :) |");
                 }
-            }```
+            }
+```
 
 ---
 
