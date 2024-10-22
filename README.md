@@ -181,6 +181,7 @@ additional context and external resources for more information.
 
 --- 
 
+## Images
 ![Alt text for the image](https://i.pinimg.com/564x/2f/f3/6f/2ff36fabb44776f024927f72a687d813.jpg)
 
 ![Alt text for the image](https://i.pinimg.com/474x/17/ba/a1/17baa186fcb8d247a88cc05d68e56c6e.jpg)
