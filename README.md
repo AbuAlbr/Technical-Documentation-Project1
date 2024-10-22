@@ -174,18 +174,9 @@ customers.put(10004, b4);
 ---
 
 ### Footnotes:
-1. **[^1]:** This footnote refers to a guide on automating bank transactions. You can replace the link with a relevant resource that discusses automation in financial systems.
-2. **[^2]:** This footnote refers to a resource on integrating banking systems with third-party applications like accounting or payment platforms. Again, feel free to replace the link with a more suitable source.
+1. **[how to manage your spending](https://www.iciciprulife.com/investments/money-management-tips.html)**
+2. **[Al Rajhi Capital](https://www.alrajhi-capital.com/ar/)** 
 
-These footnotes provide additional context and direct users to external resources for more information.
+additional context and external resources for more information.
 
-
----
-
-- [x] Fix Bug 223
-- [ ] Add Feature 33
-- [ ] Add unit tests
-
-<kbd>cmd + shift + p</kbd>
-
-`cmd + shift + p`
+![Alt text for the image](https://www.google.com/imgres?q=bank%20system&imgurl=https%3A%2F%2Fwww.enterpriseedges.com%2Fwp-content%2Fuploads%2F2019%2F02%2F2.jpg&imgrefurl=https%3A%2F%2Fwww.enterpriseedges.com%2Frole-core-banking-solutions-in-banking-system&docid=mFNpvwDV2I8otM&tbnid=cj6m7Qv-EjzMEM&vet=12ahUKEwjo0dqC3aCJAxVoVqQEHWNxHo0QM3oECBYQAA..i&w=600&h=300&hcb=2&ved=2ahUKEwjo0dqC3aCJAxVoVqQEHWNxHo0QM3oECBYQAA)
