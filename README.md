@@ -1,4 +1,4 @@
-# Bank System Simulation Bary Bank
+# Bank System Simulation Bary Bank :credit_card:
 The Bank System Simulation is a program that emulates the functionalities of an ATM. It allows users to perform essential banking operations such as creating an account, logging in, depositing, withdrawing money, transferring between accounts, and generating account statements. 
 
 ---
@@ -19,7 +19,7 @@ The Bank System Simulation is a program that emulates the functionalities of an 
 
 ---
 
-## Installation Guide
+## Installation Guide :computer:
 You could either use it on the GitHub website on any operating system that has a browser or download the program as a zip file and run it on your IDE compiler.
 
 ### Use it on the GitHub website
@@ -35,13 +35,13 @@ You could either use it on the GitHub website on any operating system that has a
 
 6. Click the <kbd>install</kbd> button to install the recommended 'Extension Pack for Java' extension from Microsoft for the Java language (<ins>Don't worry, it won't be installed on your device, it will be installed on the online space</ins>).
 
-7. After the pack installed, click the ▶ play button to run the program.
+7. After the pack installed, click the :arrow_forward: play button to run the program.
 
 8. Choose the number that suits your choice.
 
 <sub>or</sub> 
 
-### Download the program as a zip file and run it on your IDE compiler 💾
+### Download the program as a zip file and run it on your IDE compiler :floppy_disk:
 1. Open the link of the [Bank System Simulation Bary Bank](https://github.com/AbuAlbr/Bank-System-Simulation-Bary-Bank) on GitHub.
 2. Click the <kbd>**<> code**</kbd> button, and Select the ***Local*** tab.
 3. Click on ***Download ZIP***.
@@ -65,7 +65,7 @@ To Log out | To Perform more operations
 ---------- | --------- 
 Enter `2`  | Enter `1`
 
-### Deposit 💸
+### Deposit :money_with_wings:
 in the home page after log-in or create an account.
 1. Enter `2` .
 
@@ -128,7 +128,7 @@ else{
 
 ---
 
-## Troubleshooting 🛠
+## Troubleshooting :wrench:
 - **invalid password when making an account** either:
   - The password length is less or more than four digits.
   -  contains letters. 
@@ -139,7 +139,7 @@ else{
 ---
 
 ## Advanced Usage
-- **Scripting:** 💻
+- **Scripting:** :computer:
 
 **Create accounts with codes:** 
 ```
@@ -171,6 +171,13 @@ customers.put(10004, b4);
 | **Zapier**        | Automation tool to connect different web applications.| [Zapier](https://zapier.com)               |
 | **Xero**          | Cloud-based accounting software for small businesses.| [Xero](https://www.xero.com)               |
 
+---
+
+### Footnotes:
+1. **[^1]:** This footnote refers to a guide on automating bank transactions. You can replace the link with a relevant resource that discusses automation in financial systems.
+2. **[^2]:** This footnote refers to a resource on integrating banking systems with third-party applications like accounting or payment platforms. Again, feel free to replace the link with a more suitable source.
+
+These footnotes provide additional context and direct users to external resources for more information.
 
 
 ---
