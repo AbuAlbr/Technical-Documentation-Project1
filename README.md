@@ -179,4 +179,8 @@ customers.put(10004, b4);
 
 additional context and external resources for more information.
 
-![Alt text for the image](https://www.google.com/imgres?q=bank%20system&imgurl=https%3A%2F%2Fwww.enterpriseedges.com%2Fwp-content%2Fuploads%2F2019%2F02%2F2.jpg&imgrefurl=https%3A%2F%2Fwww.enterpriseedges.com%2Frole-core-banking-solutions-in-banking-system&docid=mFNpvwDV2I8otM&tbnid=cj6m7Qv-EjzMEM&vet=12ahUKEwjo0dqC3aCJAxVoVqQEHWNxHo0QM3oECBYQAA..i&w=600&h=300&hcb=2&ved=2ahUKEwjo0dqC3aCJAxVoVqQEHWNxHo0QM3oECBYQAA)
+--- 
+
+![Alt text for the image](https://i.pinimg.com/564x/2f/f3/6f/2ff36fabb44776f024927f72a687d813.jpg)
+
+![Alt text for the image](https://i.pinimg.com/474x/17/ba/a1/17baa186fcb8d247a88cc05d68e56c6e.jpg)
