@@ -126,12 +126,12 @@ else{
 ---
 
 ## Troubleshooting :wrench:
-- **invalid password when making an account** Ensure:
-  - The password length is 4 digits **NOT** less or more than four digits.
-  -  NOT contain letters. 
-- **Unable to deposit** Ensure:
-  - The deposited amount more than or equal to 50.
-  - **NOT** contain letters.
+- **invalid password when making an account**
+  - Ensure The password length is 4 digits **NOT** less or more than four digits.
+  - Ensure NOT contain letters. 
+- **Unable to deposit**
+  - Ensure The deposited amount more than or equal to 50.
+  - Ensure **NOT** contain letters.
 
 ---
 
