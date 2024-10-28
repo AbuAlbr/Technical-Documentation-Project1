@@ -1,4 +1,4 @@
-# Bank System Simulation Bary Bank :credit_card:
+# Bank System Simulation :credit_card:
 The Bank System Simulation is a program that emulates the functionalities of an ATM. It allows users to perform essential banking operations such as creating an account, logging in, depositing, withdrawing money, transferring between accounts, and generating account statements. 
 
 ---
@@ -23,7 +23,7 @@ The Bank System Simulation is a program that emulates the functionalities of an 
 You could either use it on the GitHub website on any operating system that has a browser or download the program as a zip file and run it on your IDE compiler.
 
 ### Use it on the GitHub website
-1. Open the link of the [Bank System Simulation Bary Bank](https://github.com/AbuAlbr/Bank-System-Simulation-Bary-Bank) on GitHub.
+1. Open the link of the [Bank System Simulation](https://github.com/AbuAlbr/Bank-System-Simulation) on GitHub.
 
 2. Click the <kbd>**<> code**</kbd> button, and Select the ***Codespaces*** tab.
 
@@ -42,7 +42,7 @@ You could either use it on the GitHub website on any operating system that has a
 <sub>or</sub> 
 
 ### Download the program as a zip file and run it on your IDE compiler :floppy_disk:
-1. Open the link of the [Bank System Simulation Bary Bank](https://github.com/AbuAlbr/Bank-System-Simulation-Bary-Bank) on GitHub.
+1. Open the link of the [Bank System Simulation](https://github.com/AbuAlbr/Bank-System-Simulation) on GitHub.
 2. Click the <kbd>**<> code**</kbd> button, and Select the ***Local*** tab.
 3. Click on ***Download ZIP***.
 4. Unzip the files with any unzip program.
