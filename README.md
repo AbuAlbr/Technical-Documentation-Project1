@@ -37,8 +37,6 @@ You could either use it on the GitHub website on any operating system that has a
 
 7. After the pack installed, click the :arrow_forward: play button to run the program.
 
-8. Choose the number that suits your choice.
-
 <sub>or</sub> 
 
 ### Download the program as a zip file and run it on your IDE compiler :floppy_disk:
@@ -47,7 +45,6 @@ You could either use it on the GitHub website on any operating system that has a
 3. Click on ***Download ZIP***.
 4. Unzip the files with any unzip program.
 5. Run the program with your favorite IDE compiler.
-6. Choose the number that suits your choice.
 
 ---
 
@@ -129,12 +126,12 @@ else{
 ---
 
 ## Troubleshooting :wrench:
-- **invalid password when making an account** either:
-  - The password length is less or more than four digits.
-  -  contains letters. 
-- **Unable to deposit**
-  - The deposited amount may be less than 50.
-  - contains letters.
+- **invalid password when making an account** Ensure:
+  - The password length is 4 digits **NOT** less or more than four digits.
+  -  NOT contain letters. 
+- **Unable to deposit** Ensure:
+  - The deposited amount more than or equal to 50.
+  - **NOT** contain letters.
 
 ---
 
